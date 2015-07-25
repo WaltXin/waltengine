@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{d3d49530-1dd7-4cdb-9f57-01ec602c44fe}</UniqueIdentifier>
+      <Extensions>Components</Extensions>
+    </Filter>
+    <Filter Include="Components\Renderers">
+      <UniqueIdentifier>{78ee4423-6967-40ac-9e66-9f9730fb62a9}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Components\Behaviors">
+      <UniqueIdentifier>{92d7bc2d-a1cf-4630-8d83-f8118f3775e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{9f8ef1b3-f35a-4477-857d-70acc8d31c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Colliders">
+      <UniqueIdentifier>{497e6ccb-03a0-4326-a4b4-b72ca907ab7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{53e4869d-e187-4924-9bb9-d8331f1b6b33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="WaltEngine.h" />
+    <ClInclude Include="Components\Camera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Behavior.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Transform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Components\Renderers\MeshRenderer.h">
+      <Filter>Components\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveType.h" />
+    <ClInclude Include="GameObjectManager.h" />
+    <ClInclude Include="Components\Renderer.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveGenerator.h" />
+    <ClInclude Include="Components\MeshFilter.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Behaviors\MonoBehavior.h">
+      <Filter>Components\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Physics\Colliders\BoxCollider.h">
+      <Filter>Physics\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Collider.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\AABB.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\MPR.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Solver.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\SolverManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Contact.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\obj_attr.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\value_attr.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Colliders\SphereCollider.h">
+      <Filter>Physics\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ContactConstraint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\SolverKey.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Colliders\PlaneCollider.h">
+      <Filter>Physics\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Random.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Renderers\AABBRenderer.h">
+      <Filter>Components\Renderers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="WaltEngine.cpp" />
+    <ClCompile Include="Components\Camera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Behavior.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Transform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Components\Renderers\MeshRenderer.cpp">
+      <Filter>Components\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp" />
+    <ClCompile Include="Components\Renderer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveGenerator.cpp" />
+    <ClCompile Include="Components\MeshFilter.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Behaviors\MonoBehavior.cpp">
+      <Filter>Components\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="Physics\Colliders\BoxCollider.cpp">
+      <Filter>Physics\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Collider.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\AABB.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\MPR.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Solver.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\SolverManager.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Contact.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Colliders\SphereCollider.cpp">
+      <Filter>Physics\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\ContactConstraint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\SolverKey.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Colliders\PlaneCollider.cpp">
+      <Filter>Physics\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Random.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Renderers\AABBRenderer.cpp">
+      <Filter>Components\Renderers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
